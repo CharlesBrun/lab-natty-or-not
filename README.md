@@ -13,4 +13,4 @@ Utilizei o "Gemini" para realizar a pesquisa sobre IAs Generativas, estruturar o
 ## 🚀 Resultados
 O artigo apresenta um conteúdo simples para qualquer pessoa conseguir compreender, demonstrando como as IAs Genativas podem ser uma ferramenta poderosa no nosso dia a dia.
 
-[Leia o artigo completo](index.html)
+[Leia o artigo completo](https://charlesbrun.github.io/lab-natty-or-not/)
