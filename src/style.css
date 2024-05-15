@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --primary-color: #1d222c;
+    --secondary-color: #F6F6F6;
+    --content-background-color: rgb(59, 70, 81);
+  
+    --primary-font: "Open Sans", sans-serif;
+    --secondary-font: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding-bottom: 10%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 20%;
+    padding-bottom: 5%;
+    background-color: var(--content-background-color);
+
+}
+
+.content__header {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.content__header__title {
+    text-align: center;
+    font-size: 2.25rem;
+    font-family: var(--primary-font);
+}
+
+.content__header__text {
+    padding: 0 2rem;
+    font-size: 1rem;
+    font-family: var(--primary-font);
+}
+
+.content__section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 2rem;
+}
+
+.content__section__title {
+    font-size: 1.25rem;
+    font-family: var(--primary-font);
+}
+
+.content__section__text {
+    font-size: 1rem;
+    font-family: var(--primary-font);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1rem;
+    font-family: var(--primary-font);
+}
