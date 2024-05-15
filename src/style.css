@@ -118,3 +118,42 @@ ul {
     text-decoration: underline;
     cursor: pointer;
   }
+
+@media screen and (max-width: 768px) {
+    .content {
+      margin: 0 10%;
+    }
+  
+    .content__header__title {
+      font-size: 1.8rem;
+    }
+  
+    .content__header__text {
+      padding: 0 1rem;
+      font-size: 0.9rem;
+    }
+  
+    .content__section {
+      padding: 0 1rem;
+    }
+  
+    .content__section__title {
+      font-size: 1.1rem;
+    }
+  
+    .content__section__text {
+      font-size: 0.9rem;
+    }
+  
+    .footer {
+      margin: 2% 10%;
+    }
+  
+    .avatar__name {
+      font-size: 1rem;
+    }
+  
+    .avatar__text {
+      font-size: 0.9rem;
+    }
+}
